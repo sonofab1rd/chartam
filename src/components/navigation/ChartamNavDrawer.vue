@@ -13,15 +13,6 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue";
-
-const getLogoutItem = computed(() => {
-  return {
-    title: "Logout",
-    icon: "mdi-lock",
-    href: "/logout",
-  };
-});
 let items = [
   {
     id: 1,
