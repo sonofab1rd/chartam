@@ -23,7 +23,6 @@
         ><VBtn rounded color="orange" size="large" block>Exhausted</VBtn></VCol
       >
     </VRow>
-    <v-divider></v-divider>
     <VRow
       ><VCol>Did I eat breakfast?</VCol
       ><VCol align="right">
@@ -60,7 +59,6 @@
         </v-btn-toggle></VCol
       ></VRow
     >
-    <v-divider></v-divider>
     <VRow><VCol>Depression Symptoms</VCol></VRow>
     <VRow>
       <VCol
