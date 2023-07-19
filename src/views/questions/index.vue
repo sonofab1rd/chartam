@@ -1,7 +1,7 @@
 <template>
-  <h1 align="center">Daily Questions</h1>
+  <h1 align="center" class="pt-2">Daily Questions</h1>
   <VContainer>
-    <VRow>
+    <VRow class="pt-8">
       <h3>How do I feel?</h3>
     </VRow>
     <VRow>
@@ -23,7 +23,7 @@
         ><VBtn rounded color="orange" size="large" block>Exhausted</VBtn></VCol
       >
     </VRow>
-    <VRow
+    <VRow class="pt-8"
       ><VCol align-self="center"><VRow>Did I eat breakfast?</VRow></VCol
       ><VCol align="right">
         <v-btn-toggle v-model="toggleBreakfast" color="primary" mandatory>
@@ -60,7 +60,9 @@
         </v-btn-toggle></VCol
       ></VRow
     >
-    <VRow><VCol>Depression Symptoms</VCol></VRow>
+    <VRow class="pt-8"
+      ><VCol align-self="center"><VRow>Depression Symptoms</VRow></VCol></VRow
+    >
     <VRow>
       <VCol
         ><v-slider
@@ -72,7 +74,9 @@
         >
         </v-slider></VCol
     ></VRow>
-    <VRow><VCol>Anxiety Symptoms</VCol></VRow>
+    <VRow
+      ><VCol align-self="center"><VRow>Anxiety Symptoms</VRow></VCol></VRow
+    >
     <VRow>
       <VCol
         ><v-slider
@@ -84,7 +88,11 @@
         >
         </v-slider></VCol
     ></VRow>
-    <VRow><VCol>Self-Deprecating Thoughts</VCol></VRow>
+    <VRow
+      ><VCol align-self="center"
+        ><VRow>Self-Deprecating Thoughts</VRow></VCol
+      ></VRow
+    >
     <VRow>
       <VCol
         ><v-slider
@@ -96,7 +104,9 @@
         >
         </v-slider></VCol
     ></VRow>
-    <VRow><VCol>Suicidal Thoughts</VCol></VRow>
+    <VRow
+      ><VCol align-self="center"><VRow>Suicidal Thoughts</VRow></VCol></VRow
+    >
     <VRow>
       <VCol
         ><v-slider
