@@ -24,7 +24,7 @@
       >
     </VRow>
     <VRow
-      ><VCol>Did I eat breakfast?</VCol
+      ><VCol align-self="center"><VRow>Did I eat breakfast?</VRow></VCol
       ><VCol align="right">
         <v-btn-toggle v-model="toggleBreakfast" color="primary" mandatory>
           <v-btn value="yes">Yes</v-btn>
@@ -32,8 +32,8 @@
         </v-btn-toggle>
       </VCol></VRow
     >
-    <VRow
-      ><VCol>Did I eat lunch?</VCol
+    <VRow>
+      <VCol align-self="center"><VRow>Did I eat lunch?</VRow></VCol
       ><VCol align="right"
         ><v-btn-toggle v-model="toggleLunch" color="primary" mandatory>
           <v-btn value="yes">Yes</v-btn>
@@ -42,7 +42,7 @@
       ></VRow
     >
     <VRow
-      ><VCol>Did I eat dinner?</VCol
+      ><VCol align-self="center"><VRow>Did I eat dinner?</VRow></VCol
       ><VCol align="right"
         ><v-btn-toggle v-model="toggleDinner" color="primary" mandatory>
           <v-btn value="yes">Yes</v-btn>
@@ -51,7 +51,8 @@
       ></VRow
     >
     <VRow
-      ><VCol>Did I take my medicine?</VCol
+      ><VCol align-self="center"><VRow>Did I take my medicine?</VRow></VCol
+      ><VCol></VCol
       ><VCol align="right"
         ><v-btn-toggle v-model="toggleMeds" color="primary" mandatory>
           <v-btn value="yes">Yes</v-btn>
